@@ -14,6 +14,30 @@
 		FA37A91B29CAD66C00FE3238 /* ModoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A91A29CAD66C00FE3238 /* ModoTests.swift */; };
 		FA37A92529CAD66C00FE3238 /* ModoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A92429CAD66C00FE3238 /* ModoUITests.swift */; };
 		FA37A92729CAD66C00FE3238 /* ModoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A92629CAD66C00FE3238 /* ModoUITestsLaunchTests.swift */; };
+		FA37A93929CED7BD00FE3238 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A93829CED7BD00FE3238 /* HomeView.swift */; };
+		FA37A93B29CED7CB00FE3238 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A93A29CED7CB00FE3238 /* AuthView.swift */; };
+		FA37A93D29CED7EC00FE3238 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A93C29CED7EC00FE3238 /* SignInView.swift */; };
+		FA37A93F29CED7F400FE3238 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A93E29CED7F400FE3238 /* SignUpView.swift */; };
+		FA37A94129CED83300FE3238 /* PhoneAuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A94029CED83300FE3238 /* PhoneAuthenticationView.swift */; };
+		FA37A94529CED8D500FE3238 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A94429CED8D500FE3238 /* Constants.swift */; };
+		FA37A94829CED92B00FE3238 /* Ex+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A94729CED92B00FE3238 /* Ex+UIDevice.swift */; };
+		FA37A94A29CED95100FE3238 /* Ex+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A94929CED95100FE3238 /* Ex+View.swift */; };
+		FA37A94C29CED97300FE3238 /* Ex+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A94B29CED97300FE3238 /* Ex+Font.swift */; };
+		FA37A94E29CED9B700FE3238 /* Ex+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A94D29CED9B700FE3238 /* Ex+Date.swift */; };
+		FA37A95A29CEDA7100FE3238 /* Pretendard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95129CEDA7100FE3238 /* Pretendard-Regular.otf */; };
+		FA37A95B29CEDA7100FE3238 /* Pretendard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95229CEDA7100FE3238 /* Pretendard-Black.otf */; };
+		FA37A95C29CEDA7100FE3238 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95329CEDA7100FE3238 /* Pretendard-Medium.otf */; };
+		FA37A95D29CEDA7100FE3238 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95429CEDA7100FE3238 /* Pretendard-Light.otf */; };
+		FA37A95E29CEDA7100FE3238 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95529CEDA7100FE3238 /* Pretendard-ExtraBold.otf */; };
+		FA37A95F29CEDA7100FE3238 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95629CEDA7100FE3238 /* Pretendard-Bold.otf */; };
+		FA37A96029CEDA7100FE3238 /* Pretendard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95729CEDA7100FE3238 /* Pretendard-Thin.otf */; };
+		FA37A96129CEDA7100FE3238 /* Pretendard-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95829CEDA7100FE3238 /* Pretendard-ExtraLight.otf */; };
+		FA37A96229CEDA7100FE3238 /* Pretendard-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA37A95929CEDA7100FE3238 /* Pretendard-SemiBold.otf */; };
+		FA37A96629CEDE5200FE3238 /* PreviewDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A96529CEDE5200FE3238 /* PreviewDevice.swift */; };
+		FA37A96929CEDEBA00FE3238 /* BtnModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A96829CEDEBA00FE3238 /* BtnModifier.swift */; };
+		FA37A96C29CEE04600FE3238 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A96B29CEE04600FE3238 /* User.swift */; };
+		FA37A96F29CEE06300FE3238 /* AuthViewModl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A96E29CEE06300FE3238 /* AuthViewModl.swift */; };
+		FA37A97229CEE09700FE3238 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37A97129CEE09700FE3238 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +68,31 @@
 		FA37A92029CAD66C00FE3238 /* ModoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA37A92429CAD66C00FE3238 /* ModoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModoUITests.swift; sourceTree = "<group>"; };
 		FA37A92629CAD66C00FE3238 /* ModoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA37A93829CED7BD00FE3238 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA37A93A29CED7CB00FE3238 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		FA37A93C29CED7EC00FE3238 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		FA37A93E29CED7F400FE3238 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FA37A94029CED83300FE3238 /* PhoneAuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthenticationView.swift; sourceTree = "<group>"; };
+		FA37A94429CED8D500FE3238 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA37A94729CED92B00FE3238 /* Ex+UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+UIDevice.swift"; sourceTree = "<group>"; };
+		FA37A94929CED95100FE3238 /* Ex+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+View.swift"; sourceTree = "<group>"; };
+		FA37A94B29CED97300FE3238 /* Ex+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Font.swift"; sourceTree = "<group>"; };
+		FA37A94D29CED9B700FE3238 /* Ex+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Date.swift"; sourceTree = "<group>"; };
+		FA37A95129CEDA7100FE3238 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		FA37A95229CEDA7100FE3238 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		FA37A95329CEDA7100FE3238 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		FA37A95429CEDA7100FE3238 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		FA37A95529CEDA7100FE3238 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		FA37A95629CEDA7100FE3238 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		FA37A95729CEDA7100FE3238 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		FA37A95829CEDA7100FE3238 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		FA37A95929CEDA7100FE3238 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		FA37A96329CEDC4E00FE3238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA37A96529CEDE5200FE3238 /* PreviewDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewDevice.swift; sourceTree = "<group>"; };
+		FA37A96829CEDEBA00FE3238 /* BtnModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnModifier.swift; sourceTree = "<group>"; };
+		FA37A96B29CEE04600FE3238 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA37A96E29CEE06300FE3238 /* AuthViewModl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModl.swift; sourceTree = "<group>"; };
+		FA37A97129CEE09700FE3238 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +143,11 @@
 		FA37A90829CAD66B00FE3238 /* Modo */ = {
 			isa = PBXGroup;
 			children = (
+				FA37A96A29CEDEF700FE3238 /* Source */,
+				FA37A96329CEDC4E00FE3238 /* Info.plist */,
 				FA37A90929CAD66B00FE3238 /* ModoApp.swift */,
 				FA37A90B29CAD66B00FE3238 /* ContentView.swift */,
+				FA37A94229CED89B00FE3238 /* Configuration */,
 				FA37A90D29CAD66C00FE3238 /* Assets.xcassets */,
 				FA37A90F29CAD66C00FE3238 /* Preview Content */,
 			);
@@ -125,6 +177,140 @@
 				FA37A92629CAD66C00FE3238 /* ModoUITestsLaunchTests.swift */,
 			);
 			path = ModoUITests;
+			sourceTree = "<group>";
+		};
+		FA37A93329CED77D00FE3238 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A96B29CEE04600FE3238 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA37A93429CED78600FE3238 /* VIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A96E29CEE06300FE3238 /* AuthViewModl.swift */,
+			);
+			path = VIewModel;
+			sourceTree = "<group>";
+		};
+		FA37A93529CED79300FE3238 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A93729CED7A700FE3238 /* Home */,
+				FA37A93629CED79A00FE3238 /* Auth */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA37A93629CED79A00FE3238 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A93A29CED7CB00FE3238 /* AuthView.swift */,
+				FA37A93C29CED7EC00FE3238 /* SignInView.swift */,
+				FA37A93E29CED7F400FE3238 /* SignUpView.swift */,
+				FA37A94029CED83300FE3238 /* PhoneAuthenticationView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		FA37A93729CED7A700FE3238 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A93829CED7BD00FE3238 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA37A94229CED89B00FE3238 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A94329CED8AA00FE3238 /* Constants */,
+				FA37A94629CED8F200FE3238 /* Extensions */,
+				FA37A94F29CED9F000FE3238 /* Fonts */,
+				FA37A96729CEDE9F00FE3238 /* Modifires */,
+				FA37A96429CEDE4000FE3238 /* PreviewDevice */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		FA37A94329CED8AA00FE3238 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A94429CED8D500FE3238 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FA37A94629CED8F200FE3238 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A94D29CED9B700FE3238 /* Ex+Date.swift */,
+				FA37A94B29CED97300FE3238 /* Ex+Font.swift */,
+				FA37A94729CED92B00FE3238 /* Ex+UIDevice.swift */,
+				FA37A94929CED95100FE3238 /* Ex+View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA37A94F29CED9F000FE3238 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A95029CEDA7100FE3238 /* Pretendard */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FA37A95029CEDA7100FE3238 /* Pretendard */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A95129CEDA7100FE3238 /* Pretendard-Regular.otf */,
+				FA37A95229CEDA7100FE3238 /* Pretendard-Black.otf */,
+				FA37A95329CEDA7100FE3238 /* Pretendard-Medium.otf */,
+				FA37A95429CEDA7100FE3238 /* Pretendard-Light.otf */,
+				FA37A95529CEDA7100FE3238 /* Pretendard-ExtraBold.otf */,
+				FA37A95629CEDA7100FE3238 /* Pretendard-Bold.otf */,
+				FA37A95729CEDA7100FE3238 /* Pretendard-Thin.otf */,
+				FA37A95829CEDA7100FE3238 /* Pretendard-ExtraLight.otf */,
+				FA37A95929CEDA7100FE3238 /* Pretendard-SemiBold.otf */,
+			);
+			path = Pretendard;
+			sourceTree = "<group>";
+		};
+		FA37A96429CEDE4000FE3238 /* PreviewDevice */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A96529CEDE5200FE3238 /* PreviewDevice.swift */,
+			);
+			path = PreviewDevice;
+			sourceTree = "<group>";
+		};
+		FA37A96729CEDE9F00FE3238 /* Modifires */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A96829CEDEBA00FE3238 /* BtnModifier.swift */,
+			);
+			path = Modifires;
+			sourceTree = "<group>";
+		};
+		FA37A96A29CEDEF700FE3238 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A93329CED77D00FE3238 /* Model */,
+				FA37A93529CED79300FE3238 /* View */,
+				FA37A93429CED78600FE3238 /* VIewModel */,
+				FA37A97029CEE07500FE3238 /* Service */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FA37A97029CEE07500FE3238 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FA37A97129CEE09700FE3238 /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +417,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA37A96229CEDA7100FE3238 /* Pretendard-SemiBold.otf in Resources */,
 				FA37A91129CAD66C00FE3238 /* Preview Assets.xcassets in Resources */,
+				FA37A95F29CEDA7100FE3238 /* Pretendard-Bold.otf in Resources */,
+				FA37A96129CEDA7100FE3238 /* Pretendard-ExtraLight.otf in Resources */,
+				FA37A95C29CEDA7100FE3238 /* Pretendard-Medium.otf in Resources */,
+				FA37A96029CEDA7100FE3238 /* Pretendard-Thin.otf in Resources */,
+				FA37A95E29CEDA7100FE3238 /* Pretendard-ExtraBold.otf in Resources */,
+				FA37A95A29CEDA7100FE3238 /* Pretendard-Regular.otf in Resources */,
+				FA37A95B29CEDA7100FE3238 /* Pretendard-Black.otf in Resources */,
 				FA37A90E29CAD66C00FE3238 /* Assets.xcassets in Resources */,
+				FA37A95D29CEDA7100FE3238 /* Pretendard-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +452,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA37A93929CED7BD00FE3238 /* HomeView.swift in Sources */,
 				FA37A90C29CAD66B00FE3238 /* ContentView.swift in Sources */,
+				FA37A93B29CED7CB00FE3238 /* AuthView.swift in Sources */,
+				FA37A96929CEDEBA00FE3238 /* BtnModifier.swift in Sources */,
 				FA37A90A29CAD66B00FE3238 /* ModoApp.swift in Sources */,
+				FA37A96629CEDE5200FE3238 /* PreviewDevice.swift in Sources */,
+				FA37A96F29CEE06300FE3238 /* AuthViewModl.swift in Sources */,
+				FA37A94C29CED97300FE3238 /* Ex+Font.swift in Sources */,
+				FA37A94129CED83300FE3238 /* PhoneAuthenticationView.swift in Sources */,
+				FA37A96C29CEE04600FE3238 /* User.swift in Sources */,
+				FA37A94829CED92B00FE3238 /* Ex+UIDevice.swift in Sources */,
+				FA37A97229CEE09700FE3238 /* Service.swift in Sources */,
+				FA37A93F29CED7F400FE3238 /* SignUpView.swift in Sources */,
+				FA37A94A29CED95100FE3238 /* Ex+View.swift in Sources */,
+				FA37A93D29CED7EC00FE3238 /* SignInView.swift in Sources */,
+				FA37A94E29CED9B700FE3238 /* Ex+Date.swift in Sources */,
+				FA37A94529CED8D500FE3238 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +629,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Modo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Modo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +662,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Modo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Modo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

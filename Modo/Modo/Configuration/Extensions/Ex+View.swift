@@ -26,4 +26,19 @@ extension View {
             to: nil, from: nil, for: nil
         )
     }
+    
+    // MARK: - 커스텀 네비게이션 링크
+    func customNavLink(to destination : some View, title: String?) -> some View {
+        NavigationLink(destination: destination) {
+            Rectangle()
+                .frame(height: Screen.maxHeight*0.06)
+                .foregroundColor(Color("Brown0"))
+                .overlay {
+                    Text(title != nil ? title! : "확인" )
+                        .foregroundColor(.white)
+                        .font(.pretendardaHeadline)
+                }
+        }
+    }
+    
 }

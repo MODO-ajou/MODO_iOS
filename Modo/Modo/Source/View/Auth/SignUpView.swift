@@ -2,14 +2,27 @@
 //  SignUpView.swift
 //  Modo
 //
-//  Created by MacBook on 2023/03/25.
+//  Created by MacBook on 2023/05/13.
 //
 
 import SwiftUI
 
 struct SignUpView: View {
+    @State var signUpState : SignUpState = .phone
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group{
+            switch signUpState {
+            case .phone:
+                PhoneAuthView(signUpState: $signUpState)
+            case .map:
+                MapAuthView(signUpState: $signUpState)
+            case .detail:
+                SignUpDetailView(signUpState: $signUpState)
+            case .complete:
+                SignUpCompleteView(signUpState: $signUpState)
+            }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

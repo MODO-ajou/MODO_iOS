@@ -12,7 +12,7 @@ extension Font {
     static let pretendardTitle: Font = .custom("Pretendard-Regular", size: 28)
     static let pretendardTitle2: Font = .custom("Pretendard-Regular", size: 22)
     static let pretendardTitle3: Font = .custom("Pretendard-Regular", size: 20)
-    static let pretendardaHeadline: Font = .custom("Pretendard-Regular", size: 17)
+    static let pretendardHeadline: Font = .custom("Pretendard-Regular", size: 17)
     static let pretendardCallout: Font = .custom("Pretendard-Regular", size: 16)
     static let pretendardSubhead: Font = .custom("Pretendard-Regular", size: 15)
     static let pretendardFootnote: Font = .custom("Pretendard-Regular", size: 13)

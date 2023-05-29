@@ -30,13 +30,28 @@ extension View {
     // MARK: - 커스텀 네비게이션 링크
     func customNavLink(to destination : some View, title: String?) -> some View {
         NavigationLink(destination: destination) {
-            Rectangle()
+            RoundedRectangle(cornerRadius: 4)
                 .frame(height: Screen.maxHeight*0.06)
                 .foregroundColor(Color("Brown0"))
                 .overlay {
                     Text(title != nil ? title! : "확인" )
                         .foregroundColor(.white)
-                        .font(.pretendardaHeadline)
+                        .font(.pretendardHeadline)
+                }
+        }
+    }
+    
+    // MARK: - 기본 네비게이션 링크
+    func actionNavLink(to destination : some View, title: String?) -> some View {
+        
+        NavigationLink(destination: destination) {
+            RoundedRectangle(cornerRadius: 17)
+                .frame(width:Screen.maxWidth*0.24,height: Screen.maxWidth*0.08)
+                .foregroundColor(Color("Brown1"))
+                .overlay {
+                    Text(title != nil ? title! : "확인" )
+                        .foregroundColor(.white)
+                        .font(.pretendardHeadline)
                 }
         }
     }
